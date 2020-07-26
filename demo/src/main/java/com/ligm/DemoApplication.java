@@ -5,7 +5,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
-
 @RestController
 @SpringBootApplication
 public class DemoApplication {
@@ -17,6 +16,6 @@ public class DemoApplication {
 	}
 	@RequestMapping("/")
     public String test(){
-		return "观华，您好，醉里挑灯看剑，可能看不清";
+		return "观华，醉里挑灯看剑，可能看不清";
 	}
 }
